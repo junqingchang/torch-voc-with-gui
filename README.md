@@ -36,6 +36,14 @@ Both files consist of hyperparameters that can be edited.
 
 Do take note to create your output directory before starting to train
 
+Upon training, the other python files will be useful for displaying information
+
+`dataviewer.py` and `accuracy.py` will display loss over time and tail accuracies
+
+`get_outputs.py` generates true and predicted values from a validation/test set
+
+`precomputed.py` generates precomputed values for the GUI (i.e. Image rankings)
+
 ## GUI
 _\<Image to be added>_
 
