@@ -30,7 +30,7 @@ There are 2 different models here, both are train via transfer learning from res
 Model 1 consist of Color Jitters to augment the image.
 Training is done by `ColorMeOver5Times.py`
 
-Model 2 consist of an additional Average Pooling layer at the end of resnet18 and jitter augmentations. Training is done by `ColorFlipEditedRes`
+Model 2 consist of an additional Average Pooling layer at the end of resnet18 and jitter augmentations. Training is done by `ColorFlipEditedRes.py`
 
 Both files consist of hyperparameters that can be edited. 
 
