@@ -19,7 +19,7 @@ FLIPPING_MODEL = {
     'PRECOMPUTED': 'config/editedresprecomputed.json',
 }
 PRECOMPUTED_IMAGES = 'config/precomputed_rank.json'
-IMAGES_DIRECTORY = 'VOCdevkit/VOC2012/JPEGImages/'
+IMAGES_DIRECTORY = 'dataset/VOCdevkit/VOC2012/JPEGImages/'
 
 CLASS_MAPPING = ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']
 
@@ -98,7 +98,7 @@ class VOCApplication(tk.Frame):
         self.precomputed_button.pack(side='right')
         self.threshold = tk.Entry(self.frame3)
         self.threshold.delete(0, 'end')
-        self.threshold.insert(0, "0.5")
+        self.threshold.insert(0, "0.7")
         self.threshold.pack(side='right')
         self.img_roller.pack(side='right')
         self.frame3.pack(side='top')
