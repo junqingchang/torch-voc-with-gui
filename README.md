@@ -45,7 +45,8 @@ Upon training, the other python files will be useful for displaying information
 `precomputed.py` generates precomputed values for the GUI (i.e. Image rankings)
 
 ## GUI
-_\<Image to be added>_
+![Unloaded GUI](unloaded.png)
+![Loaded GUI with prediction](loaded.jpg)
 
 Run 
 ```
